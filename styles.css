@@ -1,0 +1,60 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(230, 87, 25, 0.1);
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.personal {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h2 {
+  color: #0056b3;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #0056b3;
+  color: white;
+}
